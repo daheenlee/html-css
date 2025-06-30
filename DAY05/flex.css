@@ -1,0 +1,23 @@
+.container{
+     /*브라우저(=화면)의 퍼센테이지
+     /*100vw = 화면 전체*/
+     /*90vw = 화면의 90%넓이*/
+      width: 50vw;
+      height: 50vh;
+      border: 3px solid red; 
+
+      display: flex;
+      flex-direction: row;
+        /*브라우저(=화면)의 퍼센테이지
+     /*100vh = 화면 전체*/
+     /*90vh = 화면의 90%높이*/
+     justify-content: space-around;
+     /*메인축*/
+     align-items:baseline ;
+     /*크로스축*/
+}
+
+
+.box{width: 10%;
+    height: 10%;
+border: 2px solid black;}
