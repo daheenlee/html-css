@@ -1,0 +1,32 @@
+.container{ display: flex;
+    flex-direction: column;}
+
+    .middlebox{display: flex;
+        flex-direction: row;}
+
+    .box{ width: 200px;
+    height: 200px;}
+
+    .c1{background-color: #cd84f1;}
+
+    .c2{background-color: #ffcccc;
+        position: relative;
+    }
+
+    .c2>span{ position:absolute;
+        color:white;
+        font-size: 20px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .c3{background-color: #c56cf0;
+    position: relative;}
+
+    .c3>span{position:absolute;
+        color:white;
+    font-size: 20px;
+bottom:20px;
+right: 30px;}
+
+    .c4{background-color: #ffb8b8;}
