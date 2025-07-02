@@ -1,0 +1,13 @@
+
+button{
+padding: 5px 5px 5px 5px;
+color: black;
+border-radius: 20px;
+background-color: whitesmoke;
+border: none;
+transition: all 1s;}
+
+
+
+button:hover{ color:white;
+background-color: black;}
