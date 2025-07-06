@@ -1,0 +1,53 @@
+section{
+    display: grid;
+    grid-template-columns: (5,1fr);
+gap:5px;
+width: fit-content; }
+
+.box{
+    width: 110px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+
+.photo{
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #efefef;
+
+    
+}
+
+
+.photo > img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.2;
+    border-radius: 8px;
+    
+}
+
+
+.photo > img:hover
+{ transform: scale(1.1);}
+
+
+.photo >span:hover
+{text-transform: capitalize;
+    text-decoration: underline;
+}
+
+
+.title
+{display: -webkit-box;
+    -webkit-line-clamp: 2; /*2줄 넘어가면 밑줄임 */;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    text-overflow: hiddn;}
