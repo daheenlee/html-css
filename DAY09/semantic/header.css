@@ -9,7 +9,7 @@ nav {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between; /* ← 로고는 왼쪽, .box는 오른쪽 */
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -17,8 +17,9 @@ nav {
         
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-end;
         gap:10px;
+        
 
      
 
@@ -26,9 +27,8 @@ nav {
     }
 
 
-    .box:hover{background-color: gainsboro;
-        border-radius: 10px;
-    padding: 1px;}
+    .box>span:hover{background-color: gainsboro;
+        border-radius: 10px;}
 
 
     .box >span {
@@ -36,6 +36,7 @@ nav {
         font-weight: bold;
         padding:  14px 16px;
         border-radius: 20px;
+
     }
 
 
