@@ -1,0 +1,52 @@
+header{ position: absolute;
+    width: 100vw;
+     margin: 0 auto;
+    background-color: white;
+border-bottom: solid #efefef;
+position: fixed;
+}
+
+
+nav {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding:  5px 0px 5px 0px;
+    align-items: center;
+  }
+
+    .box{  
+       gap:4px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+         padding: 5px;
+
+
+    
+
+     
+
+
+    }
+
+    .box >span {
+        border: none;
+        font-weight: bold;
+    margin: 20px;
+     padding: 8px 16px;
+        
+    }
+
+    .box>span:hover{background-color: gainsboro;
+        border-radius: 5px;
+
+   }
+
+
+
+
+    .red{color: #ff5160;}

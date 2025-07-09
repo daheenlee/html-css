@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.thridbox{width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 60px 20px;
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center; /* 가로 중앙 */
+    align-items: center;     /* 세로 중앙 */
+}
+
+
+ 
+.textthree{ text-align: left;
+width: 100%;
+max-width: 1000px;
+line-height: 0.1;
+font-family: 'Pretendard-Regular';}
+
+.textthree > h6{ color: gray;
+font-size: 20px;
+font-weight: lighter;
+}
+
+.textthree > h5{color: black;
+font-size: 30px;
+line-height: 1.3;}
+.deck{
+
+gap: 20px;
+display: flex;
+flex-direction: row;
+margin: 0cqb;
+justify-content: center;}
+
+.card::before {
+    content: "";
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+    background-color: red;
+    opacity: 0.2;
+    border-radius: 20px;
+}
+
+.card{
+width:500px;
+height: 400px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;  /* 세로 가운데 */
+    align-items: center;      /* 가로 가운데 */
+    text-align: center;       /* 텍스트도 가운데 */
+    gap: 20px;  
+
+max-width:2400px;
+background-size: cover;
+background-position: center;
+border-radius: 20px;
+box-sizing: border-box;
+position: relative;
+margin: 0 auto;
+font-family: 'Pretendard-Regular';
+
+}
+
+.card >h2 {margin: 0 auto;font-size: 20px; 
+    font-weight: lighter;
+color: white;}
+
+.card >h5{margin: 0 auto;font-size: 14px; color: white;
+font-size: 30px;
+line-height: 1.3;}
+
+.card > button {
+   
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    margin: 0 auto; 
+    width: 120px;
+    color: black;
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 14px;
+    
+
+    
+ }
+
+.onething{background-image: url(옷.jpg);}
+
+.twothing{background-image: url(여자.jpg);}
+
+
